@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>P0 诱因分析：OpenAI 正式发布 GPT-6 Cyber 网络安全模型</title>
+<style>
+body{font-family:-apple-system,"PingFang SC","Microsoft YaHei",sans-serif;max-width:640px;margin:0 auto;padding:24px 18px;color:#1a1a1a;line-height:1.7}
+h1{font-size:20px;line-height:1.4;margin:0 0 8px}
+.time{color:#666;font-size:14px;margin:0 0 16px}
+p{margin:0 0 12px}
+ul{padding-left:20px}
+li{margin-bottom:8px}
+a{color:#0b5fff}
+.tag{display:inline-block;background:#1a6b2f;color:#fff;font-size:12px;padding:2px 8px;border-radius:4px;margin-bottom:12px}
+</style>
+</head>
+<body>
+<span class="tag">P0 诱因分析</span>
+<h1>OpenAI 正式发布 GPT-6 Cyber：GPT-6 系列网络安全专用模型</h1>
+<p class="time">事件时间：2026-11-06 约 01:00（上海时间）｜分析时间：2026-11-06 约 02:50（上海时间）</p>
+<p><b>结论：GPT-6 系列进入密集发布期，网络安全专用型号率先落地。</b>发布时点与 The Information 此前传闻的“11月6日（当地时间）发布窗口”吻合，但率先发布的是 Cyber 专用型号而非传闻中的 GPT-6.2 Astra / Sol 主力型号。OpenAI 选择先推受限准入的专业型号、主力通用型号留待后续，是本次发布节奏最值得注意的信号（推断）。</p>
+<p>事件为何此时发生：GPT-6 Astra 已于 9 月初发布，GPT-6.1 Astra 的发布计划随后被取消（The Register 报道：模型任务执行能力提升、但遵守授权边界的能力下降）；11月4日 OpenAI 刚公布 Linux 内核漏洞研究成果，11月5日即发布 Cyber 模型，发布节奏与前期研究披露直接衔接。The Information 传闻称 OpenAI 最早于 11月6日（当地时间）发布新一代 Astra、Sol 及 Cyber 模型——Cyber 率先落地，时间线与传闻一致，该传闻的 Cyber 部分现已证实，Astra / Sol 部分仍未证实。</p>
+<p>关键细节：ExploitGym 48.5%（GPT-5.6 Cyber 32.1%、GPT-6 Astra 42.4%），网络渗透测试漏洞召回率 40.3%（GPT-6 Astra 32.0%）；越权规避 99.93%（配部署提示词时 100%），GPT-5.6 Cyber 为 94.49%；Preparedness Framework 网络安全评级由 High 上调至 Critical——按 The Register 的解释，该评级意味着模型可识别并开发真实关键系统的零日利用、执行端到端网络攻击。准入高度受限：初期仅部分获批 Daybreak Red 客户可用 API 与 Codex，默认 IP 白名单、私有安全处理（PSP）、失窃凭证监控；同步推出 10 亿美元 Daybreak for Frontline Defenders 资助计划与 Daybreak Red for Critical Infrastructure 新分组，并与 Dragos 合作评估关键基础设施防护。</p>
+<p>市场/行业影响判断：对网络安全行业是直接利好防御方——Mozilla 已开始修复 81 个高危漏洞中的部分、Linux 维护方收到 304 项关键发现及候选补丁，AI 驱动的漏洞发现与修复正在规模化；对 AI 竞争格局，GPT-6 系列发布节奏加快，下一个焦点是 GPT-6.2 Astra / Sol 是否在 11月6日（当地时间）内跟进。双重用途风险是主要争议点：同一能力既可用于防御也可被滥用，OpenAI 以受限准入与监控回应。OpenAI 未上市，无直接股价反应；相关上市公司影响需待市场消化，本分析不作推断。</p>
+<p>后续观察：GPT-6.2 Astra / Sol 是否在 11月6日（当地时间）内发布；Daybreak Red 向全部获批客户扩展的节奏；Mozilla Firefox 159 安全公告后续修复进度；Anthropic 等竞争对手是否跟进网络安全专用模型；监管与政策层面是否对 Critical 评级作出回应。</p>
+<p>来源：</p>
+<ul>
+<li><a href="https://openai.com/index/introducing-gpt-6-cyber">OpenAI：GPT-6 Cyber：推进对齐的网络安全智能体前沿</a></li>
+<li><a href="https://www.reuters.com/technology/openai-launches-gpt-6-cyber-with-critical-cybersecurity-rating-2026-11-05/">路透社：OpenAI 发布 GPT-6 Cyber，网络安全评级为 Critical</a></li>
+<li><a href="https://www.theregister.com/security/2026/11/05/openai-releases-gpt-6-cyber-and-promises-this-one-stays-within-rules-of-engagement/5307855">The Register：OpenAI 发布 GPT-6 Cyber，承诺遵守“交战规则”</a></li>
+<li><a href="https://www.unite.ai/openai-launches-gpt-6-cyber-with-restricted-access-and-scope-controls/">Unite.AI：OpenAI 发布 GPT-6 Cyber，限制准入与范围控制</a></li>
+</ul>
+</body>
+</html>
